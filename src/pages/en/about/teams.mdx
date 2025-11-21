@@ -68,39 +68,6 @@ The outreach team is responsible for communications outside of and within Quilt.
 
 Development teams are responsible for specific parts of The Quilt Project, which itself comprises a number of projects. Developent teams operate largely independently, allowing for self-governance as long as the relevant RFCs are followed.
 
-### Build Tools
-
-The build tools team is responsible for several projects that are instrumental for creating Quilt mods, including compilation tooling and build system plugins. This team is responsible for the following projects:
-
-<div class="button-grid">
-	<ProjectButton name="dev-launch-injector" />
-	<ProjectButton name="gradle-convention-plugins" />
-	<ProjectButton name="quilt-template-mod" />
-	<ProjectButton name="quilt-loom" />
-	<ProjectButton name="sponge-mixin-compile-extensions" />
-</div>
-
-<div class="developer team-grid">
-	<TeamMembers team="build-tools" />
-</div>
-
-### Chasm
-
-The Chasm team is responsible for maintaining Chasm, the Collision Handling ASM toolset. Chasm aims to provide a safer backend for modifying JVM bytecode at runtime, allowing for more compatible mixins and extra bytecode modification frontends.
-
-**Note:** You may see projects with "ASMR" in the name on the QuiltMC GitHub organisation. This was the old, internal codename for Chasm, so those projects are associated with the Chasm team.
-
-This team is responsible for the following projects:
-
-<div class="button-grid">
-	<ProjectButton name="asmr-processor-prototype" />
-	<ProjectButton name="chasm" />
-</div>
-
-<div class="developer team-grid">
-	<TeamMembers team="chasm" />
-</div>
-
 ### Community Tooling
 
 The Community Tooling team is responsible for projects that power Quilt's community spaces, such as custom Discord bots. This team is responsible for the following projects:
@@ -125,19 +92,6 @@ The Infrastructure team is responsible for Quilt's service infrastructure, inclu
 
 <div class="developer team-grid">
 	<TeamMembers team="infrastructure" />
-</div>
-
-### Kotlin
-
-The Kotlin Team is responsible for maintaining the Quilt Kotlin Libraries (QKL), a set of libraries based off QSL and designed for use with the Kotlin programming language. These libraries provide an official way to use Kotlin on Quilt, as well as wrappers for QSL and the Minecraft codebase for easier use in Kotlin.
-
-<div class="button-grid">
-	<ProjectButton name="quilt-kotlin-libraries" />
-	<ProjectButton name="quilt-kotlin-template-mod" />
-</div>
-
-<div class="developer team-grid">
-	<TeamMembers team="kotlin" />
 </div>
 
 ### Loader
@@ -176,44 +130,4 @@ The Mappings team is responsible for projects relating to remapping obfuscated n
 
 <div class="developer team-grid">
 	<TeamMembers team="mappings" />
-</div>
-
-## Quilt Standard Libraries (QSL)
-
-The QSL team is responsible for maintaining a library of modules that provide extra APIs for modders to use when creating their mods. These APIs are designed to make certain tasks easier, and to help mods remain compatible with each other.
-
-The QSL team contains a subteam responsible for the Quilted Fabric API compatibility module.
-
-This team is responsible for the following projects:
-
-<div class="button-grid">
-	<ProjectButton name="quilt-standard-libraries" />
-	<ProjectButton name="quilted-fabric-api" />
-</div>
-
-<div class="developer team-grid">
-	<TeamMembers team="quilt-standard-libraries" />
-</div>
-
-### Sub-Team: Quilted Fabric API
-
-<div class="developer team-grid">
-	<TeamMembers team="quilted-fabric-api" />
-</div>
-
-## Triage Teams
-
-Triage teams aren't directly involved with development, but they're still very important. They're mostly responsible for reviewing pull requests to active Quilt repositories, ensuring that they're up to spec and ready be merged. This allows for the development teams overseeing these repositories to focus on development, rather than reviewing PRs.
-
-### Mappings
-
-This team is responsible for handling triage tasks for the following projects:
-
-<div class="button-grid">
-	<ProjectButton name="enigma" />
-	<ProjectButton name="quilt-mappings" />
-</div>
-
-<div class="developer team-grid">
-	<TeamMembers team="mappings-triage"/>
 </div>
