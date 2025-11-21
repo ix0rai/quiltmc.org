@@ -41,7 +41,7 @@ const teamMembers = defineCollection({
 				"loader",
 				"mappings",
 				"moderators",
-				"outreach",])),
+				"outreach",])).default([]),
 			systemMembers: z.array(z.object({
 				name: z.string(),
 				icon: z.string().url()
@@ -49,4 +49,4 @@ const teamMembers = defineCollection({
 		})
 })
 
-export const collections = {blog}
+export const collections = {blog, teamMembers}
