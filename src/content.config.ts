@@ -32,6 +32,7 @@ const teamMembers = defineCollection({
 			teams: z.array(z.enum([
 				// I wish we could define this array elsewhere, but Zod doesn't like it.
 				"admin-board",
+				"build-tools",
 				"community",
 				"community-managers",
 				"community-tooling",
