@@ -104,27 +104,11 @@ import SponsorRow from "@parts/sponsors/SponsorRow.astro";
 					/>
 
 					<Button
-						href={site.forum}
-						target="_blank"
-						type="gradle"
-						icon="cib:discourse"
-						textKey="button-forum"
-					/>
-
-					<Button
 						href={site.mastodon.link}
 						target="_blank"
 						type="mastodon"
 						icon="cib:mastodon"
 						textKey="button-mastodon"
-					/>
-
-					<Button
-						href={site.twitter.handle.link}
-						target="_blank"
-						type="twitter"
-						icon="cib:twitter"
-						textKey="button-twitter"
 					/>
 
 					<Button
@@ -138,14 +122,6 @@ import SponsorRow from "@parts/sponsors/SponsorRow.astro";
 				<slot name="getInvolved" />
 
 				<div class="button-grid">
-					<Button
-						href={site.forum}
-						target="_blank"
-						type="gradle"
-						icon="cib:discourse"
-						textKey="button-forum"
-					/>
-
 					<Button
 						href={site.github.link}
 						target="_blank"
