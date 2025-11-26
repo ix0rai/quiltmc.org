@@ -135,15 +135,25 @@
 		"discord": "ix0rai",
 		"github": "ix0rai",
 		"avatar": "/assets/img/team/ix0rai.png",
+		"description": "Java developer, modder, runner, and resident hot girl. Always busy working on Enigma and Quilt Config.",
 		"teams": [
 			"admin-board",
 			"mappings",
+			"loader",
 			"outreach"
 		],
 		"links": [
 			{
 				"icon": "cib:tumblr",
 				"url": "https://ix0rai.tumblr.com/"
+			},
+			{
+				"icon": "modrinth-small",
+				"url": "https://modrinth.com/user/ix0rai"
+			},
+			{
+				"icon": "curseforge",
+				"url": "https://www.curseforge.com/members/ix0rai"
 			}
 		]
 	},
