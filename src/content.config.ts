@@ -13,6 +13,24 @@ const blog = defineCollection({
 	})
 })
 
+const incompatibleMods = defineCollection({
+	// A custom parser is necessary because Astro requires an id field which these entries don't have
+	loader: file("src/data/incompatible-mods.json", {parser: (text) => {
+		let parsedContent: any[] = JSON.parse(text)
+		parsedContent.forEach((content, index) => content.id = index)
+		return parsedContent
+	}}),
+	schema: z.object({
+		ids: z.array(z.string()),
+		name: z.string(),
+		type: z.enum(["GAME", "OTHERS", "SELF", "WORKAROUND"]),
+		status: z.enum(["BLOCKED", "IN_PROGRESS", "NO_ANSWER", "ON_HOLD", "UNKNOWN", "WONT_FIX"]),
+		tracking: z.string().url().or(z.literal("UNKNOWN")),
+		note: z.optional(z.string()),
+		icon: z.string().url()
+	})
+})
+
 const teamMembers = defineCollection({
 	loader: file("src/data/teamMembers.json", {parser: (text) => {
 		let data = JSON.parse(text) as any[]
@@ -49,4 +67,4 @@ const teamMembers = defineCollection({
 		})
 })
 
-export const collections = {blog, teamMembers}
+export const collections = {blog, incompatibleMods, teamMembers}
