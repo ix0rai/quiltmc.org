@@ -55,7 +55,6 @@ const teamMembers = defineCollection({
 				"community-managers",
 				"community-tooling",
 				"infrastructure",
-				"keyholder",
 				"loader",
 				"mappings",
 				"moderators",
