@@ -184,7 +184,11 @@
 		"name": "MrMangoHands",
 		"discord": "mrmangohands",
 		"github": "mrmangohands",
-		"avatar": "/assets/img/team/MrMangoHands.png"
+		"avatar": "/assets/img/team/MrMangoHands.png",
+		"teams": [
+			"community-managers",
+			"moderators"
+		]
 	},
 	{
 		"name": "[object Object]",
