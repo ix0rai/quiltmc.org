@@ -51,9 +51,9 @@ const teamMembers = defineCollection({
 				// I wish we could define this array elsewhere, but Zod doesn't like it.
 				"admin-board",
 				"build-tools",
-				"community",
 				"community-managers",
 				"community-tooling",
+				"events",
 				"infrastructure",
 				"loader",
 				"mappings",

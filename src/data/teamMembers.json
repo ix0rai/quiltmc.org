@@ -86,7 +86,7 @@
 		"description": "Part time speedrunner, mod developer, and game developer.",
 		"teams": [
 			"admin-board",
-			"community"
+			"events"
 		],
 		"links": [
 			{
@@ -154,7 +154,6 @@
 		"avatar": "https://avatars.githubusercontent.com/u/31807465",
 		"description": "I am an cat lover, which I happen to have over 20 cats which I try to spend my time with them. In my off time, you can usually catch me playing various games - usually the Sims 4 or Pokemon game. Sometimes I will draw or color, or I'd just hang out with my cats.",
 		"teams": [
-			"community",
 			"community-managers",
 			"moderators"
 		]
@@ -287,7 +286,6 @@
 		"avatar": "/assets/img/team/snoozestudios.png",
 		"description": "Student, Coder & Much More!",
 		"teams": [
-			"community",
 			"moderators"
 		],
 		"links": [
@@ -304,7 +302,6 @@
 		"avatar": "https://www.gravatar.com/avatar/d357970001cdbe299dd790817dee30af",
 		"description": "Inside of Quilt I help moderate community spaces and lead the Outreach team. Outside of Quilt I tinker with things to varying degrees of failure, and write things now and then. I also like cats.",
 		"teams": [
-			"community",
 			"community-managers",
 			"infrastructure",
 			"moderators",
